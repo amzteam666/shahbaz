@@ -1,17 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="/">
-        <meta name="description" content="Website description.">
-        <title>Jigsaw</title>
-        <link rel="stylesheet" href="/assets/build/css/main.css?id=bab7b5ea325240f5c97585c455aa11de">
-        <script defer src="/assets/build/js/main.js?id=2f836786f79f4c701101ba20385775d4"></script>
-    </head>
-    <body class="text-gray-900 font-sans antialiased">
-        <div class="p-8">
-    <h1 class="text-3xl font-bold">Hi I am Nimra & Here my First jigsaw project & I am ready for jisgaw developer Job!</h1>
-</div>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Biryani point</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    
+
+    <div class="background-image">
+        <!-- Adding the "ruler" at the bottom of the background image -->
+        <img background src="backgroun-image.jpg">
+
+        <div class="ruler">
+
+        </div>
+      </div>
+    <!-- Navbar -->
+    <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow-lg">
+    <div class="container-fluid">
+        <!-- Restaurant Logo or Name -->
+        <a class="navbar-brand" href="#home">
+            <span class="ms-2 fs-3">Dining Delights</span>
+        </a>
+        <!-- Hamburger Menu for Mobile -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar Links -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#menu">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#reviews">Reviews</a>
+                </li>
+                        <li><a class="nav-link" href="#contact">Contact Us</a></li>
+                    </ul>
+                </li>
+        
+                <!-- Order Now Button -->
+                <li class="nav-item">
+                    <a href="#order" class="btn btn-warning btn-sm ms-2">Order Now</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section text-center py-5">
+        <div class="container main-text-container ">
+            <h1>Authentic Pakistani Flavors</h1>
+            <p class="lead">Taste the tradition, feel the passion, and indulge in every bite!</p>
+            <a href="#menu" class="btn btn-warning btn-lg">Explore Our Menu</a>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="py-5 bg-light-subtle">
+        <div class="container">
+            <h2 class="text-center mb-5">Our Menu</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <!-- Menu Item 1 -->
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="https://media.istockphoto.com/id/1716976168/photo/pilaf-kachchi-biryani-is-a-popular-meal-served-at-parties-celebrations-and-weddings-closeup.jpg?s=1024x1024&w=is&k=20&c=Rlm02OKvw0Eau3zdI4xFDq5K8maGsuEXzVB4GceVHXg=" class="card-img-top" alt="Biryani">
+                        <div class="card-body">
+                            <h5 class="card-title">Chicken Biryani</h5>
+                            <p class="card-text">Aromatic basmati rice with tender chicken pieces and a blend of spices.</p>
+                            <p class="card-text text-danger fw-bold">240/plate</p>
+                            <a href="#" class="btn btn-dark">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Menu Item 2 -->
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="https://media.istockphoto.com/id/2043767125/photo/lemon-being-squeezed-over-shrimp-tandoori.jpg?s=1024x1024&w=is&k=20&c=vUXJ-XwNxcfqQIfXzINSDSwOstiB8Nx_kY-TRsHLxB8=" class="card-img-top" alt="Karahi">
+                        <div class="card-body">
+                            <h5 class="card-title">Mutton Karahi</h5>
+                            <p class="card-text">Spicy mutton cooked in a traditional karahi with fresh herbs and tomatoes.</p>
+                            <p class="card-text text-danger fw-bold">1900/kg</p>
+                            <a href="#" class="btn btn-dark">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Menu Item 3 -->
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="https://media.istockphoto.com/id/186862747/photo/garlic-naan-indian-flatbread-pieces.jpg?s=1024x1024&w=is&k=20&c=V4TMNKiGFqsYjVI4FsL_pUzyrFuXCw25tZJmMIo5hxA=" class="card-img-top" alt="Naan">
+                        <div class="card-body">
+                            <h5 class="card-title">Garlic Naan</h5>
+                            <p class="card-text">Soft and fluffy naan bread topped with garlic butter for an extra burst of flavor.</p>
+                            <p class="card-text text-danger fw-bold">50</p>
+                            <a href="#" class="btn btn-dark">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">About Us</h2>
+            <p class="text-center">We are dedicated to providing the best of authentic Pakistani cuisine. Our mission is to bring the rich flavors of Pakistan to your plate, made with the finest ingredients and a touch of tradition. Every dish is prepared with love and care to give you an unforgettable dining experience.</p>
+        </div>
+    </section>
+    
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="py-5 reviews-main text-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Customer Reviews</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card bg-light p-3">
+                        <p>"The best Biryani in town! The spices were perfect and the chicken was so tender. Highly recommend!"</p>
+                        <footer>- Ali Khan</footer>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-light p-3">
+                        <p>"Amazing Karahi! Felt like home-cooked food with a rich, flavorful taste. Will definitely be coming back!"</p>
+                        <footer>- Sara Imran</footer>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-light p-3">
+                        <p>"Loved the garlic naan! Soft, fluffy, and delicious! Paired perfectly with the Karahi."</p>
+                        <footer>- Faisal Ahmed</footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <form>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="name" class="form-label">Your Name</label>
+                        <input type="text" class="form-control" id="name" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="col-12 mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="4" required></textarea>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-dark">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+<!-- Hero Section -->
+<section id="home" class="hero-section text-center text-light py-5">
+    <div class="container">
+        <h1 class="display-4 fw-bold">Authentic Pakistani Flavors</h1>
+        <p class="lead">Taste the tradition, feel the passion, and indulge in every bite!</p>
+        <a href="#menu" class="btn btn-warning btn-lg">Explore Our Menu</a>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="text-center bg-dark text-light py-4">
+        <p>&copy; 2024 Pakistani Delights. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
 </html>
